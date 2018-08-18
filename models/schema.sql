@@ -1,0 +1,2 @@
+DROP DATABASE IF EXISTS class_hub;
+CREATE DATABASE class_hub;
