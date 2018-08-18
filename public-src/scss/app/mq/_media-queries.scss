@@ -1,0 +1,116 @@
+/* Wide Monitors */
+@media screen and (max-width: 1200px) {
+
+	.wrapper {
+		padding-right: 3%;
+		padding-left: 3%;
+		width: 94%;
+	}
+	
+	.wrapper-main {
+		padding-right: 0;
+		padding-left: 0;
+		width: 100%;
+	}
+
+}
+
+/* Tablet Landscape */
+@media screen and (max-width: 1020px) {
+
+	.wrapper {
+		padding-right: 3%;
+		padding-left: 3%;
+		width: 94%;
+	}
+	
+	.wrapper-main {
+		padding-right: 0;
+		padding-left: 0;
+		width: 100%;
+	}
+
+}
+
+/* Tablet Landscape */
+@media screen and (max-width: 960px) {
+
+
+
+}
+
+/* Tabled Portrait */
+@media screen and (max-width: 768px) {
+
+	header {
+		width: 26.0416%;
+	}
+	
+	#content {
+		width: 73.9583%;
+	}
+	
+	.layout-column-main,
+	.layout-column-aside {
+		display: block;
+		float: none;
+		margin-right: 0;
+		margin-bottom: 30px;
+		width: 100%;
+	}
+	
+	#footer-copy {
+		display: none;
+	}
+
+}
+
+/* All Mobile Sizes (devices and browser) */
+@media screen and (max-width: 640px) {
+
+	header, 
+	#content {
+		display: block;
+		float: none;
+		width: 100%;
+	}
+
+	#logo {
+		padding: 15px;
+		text-align: center;
+	}
+	
+	.wrapper-header {
+		padding: 15px;
+	}
+	
+	.wrapper-menu {
+		margin-bottom: 10px;
+		padding-bottom: 10px;
+	}
+
+	header .widget {
+		margin-bottom: 10px;
+		padding-bottom: 10px;
+	}
+	
+	/* Main Menu */
+
+	#header-block-2 .wrapper-block {
+		padding-right: 0;
+		padding-left: 0;
+	}
+
+	#site-navigation,
+	#menu-main-slick {
+		display: none;
+	}
+
+	.navbar-header {
+		display: block;
+	}
+
+	
+	/* End Main Menu */
+	
+}

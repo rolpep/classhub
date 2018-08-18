@@ -1,0 +1,68 @@
+footer {
+	color: #555;
+	margin: 0;
+	padding: 0;
+}
+
+.wrapper-footer-main {
+	background-color: #f4f1e8;
+	border-top: solid 1px #e3e3e3;
+	border-bottom: solid 1px #e3e3e3;
+	padding: 30px 30px 10px;
+}
+
+footer a {
+	color: #e45050;
+}
+
+footer a:hover,
+footer a:focus {
+	color: #26bcd7;
+}
+
+footer .widget {
+	font-size: 14px;
+	margin-bottom: 22px;
+}
+
+#footer-main .title-widget a {
+	color: #252525;
+}
+
+#footer-main .title-widget a:hover,
+#footer-main .title-widget a:focus {
+	color: #e45050;
+}
+
+footer .widget li {
+	line-height: 24px;
+}
+
+footer .academia-testimonial-content {
+	background-color: #fff;
+	border-bottom-color: #e4e1d7;
+}
+
+footer .title-widget {
+	border-bottom-color: #e4e1d7;
+}
+
+#footer-copy {
+	color: #82a0af;
+	font-size: 12px;
+	line-height: 20px;
+	margin: 0;
+}
+
+#footer-copy a {
+	color: #82a0af;
+}
+
+#footer-copy a:hover,
+#footer-copy a:focus {
+	color: #fff;
+}
+
+#footer-copy p {
+	margin-bottom: 0;
+}

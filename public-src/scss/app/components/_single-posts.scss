@@ -1,0 +1,124 @@
+.category-excerpt,
+.post-single {
+	font-family: 'Source Sans Pro', Arial, Tahoma, sans-serif;
+	font-size: 15px;
+	line-height: 1.8em;
+	max-width: 100%;
+}
+
+.title-post-single {
+	margin-bottom: 15px;
+}
+
+.post-meta-single {
+	font-family: 'Source Sans Pro', Arial, Tahoma, sans-serif;
+}
+
+.post-meta-single .post-meta time {
+	background-color: #f1f1f1;
+	color: #151515;
+	display: inline-block;
+	font-weight: 600;
+	margin: 0 5px 0 0;
+	padding: 7px 12px;
+}
+
+.post-meta-single .post-meta a {
+	color: #151515;
+}
+
+.post-meta-single .post-meta a:hover,
+.post-meta-single .post-meta a:focus {
+	color: #26bcd7;
+}
+
+.post-meta p.postmeta{
+	color: #999;
+	font-size: 11px;
+}
+
+.post-meta .divider {
+	border-top-color: #f1f1f1;
+}
+
+.post-meta-single .divider {
+	margin: 10px 0;
+}
+
+.archive-meta {
+	color: #555;
+	font-size: 13px;
+	line-height: 23px;
+}
+
+.archive-meta .title {
+	margin-bottom: 15px;
+}
+
+.post-single h2, 
+.post-single h3, 
+.post-single h4, 
+.post-single h5, 
+.post-single h6 {
+	font-weight: 600;
+	margin: 12px 0 12px;
+	line-height: 1.25em; 
+}
+
+.post-single p {
+	margin-top: 0;
+	margin-bottom: 1.5em; 
+}
+
+.post-single img {
+	margin-bottom: 20px; 
+}
+
+.post-single img.alignnone, 
+.post-single img.aligncenter, 
+.post-single img.alignleft, 
+.post-single img.alignright {
+	max-width: 100%;
+	width:auto;
+ 	height:auto;
+}
+
+.post-single iframe {
+	max-width: 100%;
+}
+
+.post-single textarea {
+	max-width: 97%;
+}
+
+.post-single ul, 
+.post-single ol {
+	margin: 0 0 1em 1em; 
+}
+.post-single li ul, 
+.post-single li ol {
+	margin-bottom: 0; 
+}
+.post-single li {
+	list-style-position: outside; 
+	margin-left: 20px;
+} 
+.post-single ul li {
+	list-style-type: square;
+}
+.post-single ol li {
+	list-style-type: decimal; 
+}
+.post-single blockquote {
+    border-left: solid 3px #ececec;
+    padding: 0 15px;
+    margin: 10px;
+}
+.post-single a {
+	text-decoration:none; 
+}
+.post-single a:hover,
+.post-single a:focus {
+	text-decoration:underline; 
+	cursor: pointer; 
+}

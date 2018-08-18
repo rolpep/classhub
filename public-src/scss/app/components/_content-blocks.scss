@@ -1,0 +1,95 @@
+
+.widget {
+	font-size: 14px;
+	line-height: 22px;
+	margin-bottom: 30px;
+}
+
+.post-cover img {
+	height: auto;
+	max-width: 100%;
+}
+
+.post-cover iframe {
+	max-width: 100%;
+}
+
+
+/// Featuted posts widget
+
+.cb-featured-post {
+	margin-bottom: 30px;
+}
+
+
+.cb-featured-post:last-child {
+	margin-bottom: 0;
+}
+
+.cb-featured-post .post-cover {
+	line-height: 1px;
+	margin-bottom: 15px;
+}
+
+.cb-featured-post .title-post {
+	margin-bottom: 10px;
+}
+
+.cb-featured-post .post-meta {
+	font-size: 12px;
+}
+
+.cb-simple-post .post-content {
+	font-size: 15px;
+	line-height: 24px;
+}
+
+
+// Call to Action Widgets
+
+.cb-call2action {
+	background-color: #e45050;
+	color: #fff;
+	margin: 0;
+	padding: 25px;
+	text-align: center;
+}
+
+.cb-call2action a {
+	color: #fff;
+	text-decoration: underline;
+}
+
+.cb-call2action a:hover,
+.cb-call2action a:focus {
+	color: #f8c564;
+}
+
+.cb-call2action .cb-call2action-main {
+	display: block;
+	font-size: 20px;
+	font-weight: 600;
+	margin-bottom: 10px;
+	text-transform: uppercase;
+}
+
+.cb-call2action .cb-call2action-secondary {
+	display: block;
+	font-size: 16px;
+	font-weight: normal;
+	margin-top: 10px;
+}
+
+.cb-call2action-list .call2action-span {
+	display: block;
+}
+
+.cb-call2action-list .cb-call2action-main {
+	margin-bottom: 10px;
+}
+
+.cb-call2action-columns .cb-call2action-main {
+	margin-right: 10px;
+}
+
+

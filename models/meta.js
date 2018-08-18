@@ -7,7 +7,7 @@ module.exports = function (sequelize, DataTypes) {
     user_twitter: DataTypes.STRING,
     user_linkedin: DataTypes.STRING,
     user_github: DataTypes.STRING,
-    user_website: DataTypes.STRING
+    user_website: DataTypes.STRING,
 
 
   });

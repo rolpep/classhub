@@ -1,0 +1,148 @@
+.wrapper-menu {
+	border-bottom: solid 1px #1f4051;
+	margin-bottom: 20px;
+	padding-bottom: 20px;
+}
+
+#site-navigation {
+	color: #fff;
+	padding: 0;
+	position: relative;
+	z-index: 3;
+}
+
+.navbar-header {
+	display: none;
+}
+
+#site-navigation li {
+	display: block;
+	float: none;
+	font-size: 12px;
+	font-weight: 600;
+	line-height: 24px;
+	margin: 0;
+	padding: 5px 0;
+	position: relative;
+	text-transform: uppercase;
+}
+
+#site-navigation li li {
+	background-color: #1f4051;
+	display: inline-block;
+	text-transform: none;
+}
+
+#site-navigation li li .separator {
+	display: none;
+}
+
+#site-navigation li:hover {
+	visibility: inherit; /* fixes IE7 'sticky bug' */
+}
+
+#site-navigation .current-menu-item > a,
+#site-navigation .current-menu-ancestor > a,
+#site-navigation a:hover, 
+#site-navigation a:active,
+#site-navigation a:focus {
+	color: #d8ae6e;
+} 
+
+#site-navigation .current-menu-item li a {
+	color: #aaa;
+}
+
+#site-navigation .dropdown ul {
+	position:		absolute;
+	top:			-999em;
+	width:			170px; /* left offset of submenus need to match (see below) */
+ 	text-align: left;
+	margin: 0;  
+	padding: 10px 5px; 
+	background: #1f4051; 
+	text-transform: none; 
+}
+
+#site-navigation .dropdown ul li {
+	width: 100%;
+	font-size: 12px;
+	line-height: 24px;
+ 	margin: 0;
+ 	padding: 0;
+ 	border-right: 0;
+ 	border-bottom: solid 1px #2c5164;
+}
+
+#site-navigation .dropdown ul li a {
+	padding:6px 12px;
+	border-radius: 0;
+	-moz-border-radius: 0;
+	-webkit-border-radius: 0;
+	border-bottom: none;
+}
+
+#site-navigation a {
+	color: #fff;
+	display: inline-block;
+	text-decoration: none;
+}
+
+#site-navigation li li a,
+#site-navigation .current-menu-item li a,
+#site-navigation li .current-menu-item a,
+#site-navigation li li a:hover,
+#site-navigation li li a:focus {
+	background: none;
+	border: none;
+	-moz-box-shadow: none;
+	-webkit-box-shadow: none;
+}
+
+#site-navigation li li a {
+	color: #aaa;
+	display: block;
+}
+
+#site-navigation li li a:hover,
+#site-navigation li li a:focus {
+	background-color: #353535;
+	color: #fff;
+}
+
+#site-navigation .dropdown li:hover ul,
+#site-navigation .dropdown .sfHover ul {
+	padding: 0;
+	margin: 0;
+	left:			160px;
+	top:			0; /* match top ul list item height */
+	z-index:		99;
+	border: solid 1px #1f4051;
+}
+
+#site-navigation .dropdown li:hover li ul,
+#site-navigation .dropdown .sfHover li ul {
+	top:			-999em;
+}
+
+#site-navigation .dropdown li li:hover ul,
+#site-navigation .dropdown li .sfHover ul {
+	left:			171px; /* match ul width */
+	top:			-2px;
+}
+
+#site-navigation .dropdown li li:hover li ul,
+#site-navigation .dropdown li .sfHover li ul {
+	top:			-999em;
+}
+
+#site-navigation .dropdown li li li:hover ul,
+#site-navigation .dropdown li li .sfHover ul {
+	left:			171px; /* match ul width */
+	top:			0;
+}
+ 
+#site-navigation .dropdown li:hover, .dropdown li.sfHover,
+#site-navigation .dropdown a:focus, .dropdown a:hover, .dropdown a:active {
+ 	outline:		0;
+}

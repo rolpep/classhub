@@ -25,11 +25,6 @@ module.exports = function (app) {
     });
   });
 
-
-
-
-
-
   app.post("/api/signup", function (req, res) {
     db.User.create({
       id: req.body.id,
@@ -50,7 +45,6 @@ module.exports = function (app) {
         userID = dbSignIn.dataValues.id;
 
 
-
       });
   });
 
@@ -65,7 +59,7 @@ module.exports = function (app) {
       user_website: req.body.user_website,
       UserId: uID
 
-    })
+  })
       .then(function (dbMeta) {
         res.json(dbMeta);
       });
@@ -81,5 +75,3 @@ module.exports = function (app) {
   });
 
 };
-
-

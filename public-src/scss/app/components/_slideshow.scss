@@ -1,0 +1,98 @@
+/* Browser Resets */
+.flex-container a:active,
+.flexslider a:active,
+.flex-container a:focus,
+.flexslider a:focus  {outline: none;}
+.academia-slides,
+.flex-control-nav,
+.flex-direction-nav {margin: 0; padding: 0; list-style: none;} 
+
+/* FlexSlider Necessary Styles
+*********************************/ 
+.flexslider {margin: 0; padding: 0; }
+.flexslider .academia-slides > li { display: none; -webkit-backface-visibility: hidden;} /* Hide the slides before the JS is loaded. Avoids image jumping */
+.flexslider .academia-slides img { display: block; width: 100%; }
+
+/* Clearfix for the .slides element */
+.academia-slides:after {content: "."; display: block; clear: both; visibility: hidden; line-height: 0; height: 0;} 
+html[xmlns] .academia-slides {display: block;} 
+html .academia-slides {height: 1%;}
+
+/* No JavaScript Fallback */
+/* If you are not using another script, such as Modernizr, make sure you
+ * include js that eliminates this class on page load */
+.no-js .academia-slides > li:first-child {display: block;}
+
+
+/* FlexSlider Default Theme
+*********************************/
+.flexslider {position: relative; zoom: 1;}
+.flex-viewport {max-height: 2000px; -webkit-transition: all 1s ease; -moz-transition: all 1s ease; transition: all 1s ease;}
+.loading .flex-viewport {max-height: 300px;}
+.flexslider .academia-slides {zoom: 1;}
+
+.carousel li {margin-right: 5px; }
+
+.flex-direction-nav { display: none; }
+
+#academia-slideshow {
+	display: block;
+	font-family: 'Source Sans Pro', Arial, Tahoma, sans-serif;
+	margin-bottom: 30px;
+	max-width: 100%;
+	overflow: hidden;
+	position: relative;
+	width: 100%;
+	z-index: 2;
+}
+
+#academia-slideshow .academia-slide {
+	position: relative;
+}
+
+#academia-slideshow iframe {
+	max-width: 100%;
+}
+
+#academia-slideshow img {
+	height: auto;
+	max-width: 100%;
+}
+
+#academia-slideshow a {
+	color: #fff;
+}
+
+#academia-slideshow a:hover,
+#academia-slideshow a:focus {
+	color: #f8dfaf;
+	text-decoration: underline;
+}
+
+#academia-slideshow .post-content {
+	background-color: #214c64;
+	color: #a0c0d0;
+}
+
+#academia-slideshow .post-content-wrapper {
+	padding: 20px;
+}
+
+#academia-slideshow .title-post {
+	margin-bottom: 15px;
+}
+
+#academia-slideshow .post-excerpt {
+	font-size: 14px;
+	line-height: 23px;
+	margin: 0;
+}
+
+/* Control Nav (Bullets) */
+.flex-control-nav {position: absolute; top: 15px; right: 15px; z-index: 100; }
+.flex-control-nav li {margin: 0 0 0 10px; display: inline-block; zoom: 1; *display: inline;}
+
+.flex-control-paging li a {	background-color: #ccc; border: solid 4px #fff; display:block; text-indent: -9999px; width:12px; height:12px; cursor: pointer; -webkit-transition-duration: 0; -moz-transition-duration: 0; transition-duration: 0;}
+.flex-control-paging li a:hover,
+.flex-control-paging li a:focus,
+.flex-control-paging li a.flex-active {background-color: #e45050;}

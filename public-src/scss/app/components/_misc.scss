@@ -1,0 +1,247 @@
+.read-more-span {
+	display: block;
+	margin: 20px 0 0;
+}
+
+.read-more-anchor {
+	background-color: #556d7d;
+	color: #fff;
+	display: inline-block;
+	font-size: 11px;
+	padding: 10px 15px;
+	text-transform: uppercase;
+}
+
+.read-more-anchor:hover,
+.read-more-anchor:focus {
+	background-color: #465d6d;
+	color: #fff;
+}
+
+.read-more-purple {
+	background-color: #544b82;
+}
+
+.read-more-purple:hover,
+.read-more-purple:focus {
+	background-color: #453d70;
+}
+
+/* Breadcrumbs */
+
+.cb-breadcrumbs {
+	margin-bottom: 20px;
+	padding: 10px 0;
+}
+
+.cb-breadcrumbs a {
+	color: #79849f;
+}
+
+.cb-breadcrumbs a:hover,
+.cb-breadcrumbs a:focus {
+	color: #d8ae6e;
+}
+
+.cb-breadcrumbs .crumbs {
+	color: #999;
+	font-size: 12px;
+	margin-bottom: 0;
+}
+
+.cb-notice {
+	line-height: 1.75em;
+	margin-bottom: 0;
+	text-align: center;
+}
+
+.cb-post-share .title-s,
+.cb-share-button {
+	display: inline-block;
+	float: left;
+	margin-right: 30px;
+}
+
+.cb-post-share .title-s {
+	font-weight: bold;
+}
+
+/* Pagination */
+.cb-pagination { font-size: 12px; margin: 20px 0 25px; text-align: center; }
+.cb-pagination p { margin: 0;}
+.cb-pagination a { background-color: #f1f1f1; color: #333; line-height: 24px; padding: 7px 10px; }
+.cb-pagination .current { background-color: #e45050; color: #fff; font-weight:bold; line-height: 24px; padding: 7px 10px; }
+.cb-pagination a:hover,
+.cb-pagination a:focus {
+	background: none;
+	background-color: #e45050; 
+	color: #fff;
+}
+
+/* Begin Images */
+.post-single .aligncenter { 
+	display: block;
+	margin-right: auto;
+	margin-left: auto;
+}
+.post-single .alignright { 
+	display: inline;
+	margin: 0 0 5px 20px; 
+}
+.post-single .alignleft { 
+	display: inline;
+	margin: 0 20px 5px 0; 
+}
+.alignright { float: right; }
+.alignleft { float: left; }
+
+/* Caption for images */
+.post-single .wp-caption { background-color: #f3f3f3; border-bottom: solid 1px #e3e3e3; padding: 0 0 15px; }
+.post-single .wp-caption img { background:none; margin: 0 0 15px; border:0 none; max-width:100%; width: 100%; height:auto; }
+.post-single .wp-caption-text, .gallery-caption { color:#777; font-size:11px; line-height: 1.4em; margin:0 10px; }
+.post-single .wp-caption.aligncenter { margin:0 auto 15px; }
+
+/* [gallery] shortcode styling */
+.post-single .gallery { margin: auto; text-align:center; clear:both; }
+.post-single .gallery-icon {
+	background-color: #fff;
+	border: solid 1px #eeeeee;
+	margin-bottom: 10px;
+	padding: 4px;
+}
+.post-single .gallery .gallery-item {display: -moz-inline-stack; display: inline-block; vertical-align: top; zoom: 1; *display: inline; margin: 10px; width: 30%; }
+.post-single .gallery img { width: 100%; height: auto; margin: 0; }
+.post-single .gallery-caption { margin-left: 0; }
+
+/* Recent Comments Widget */
+
+.recent-comments-list .recent-comment,
+#recentcomments .recentcomments {
+	font-size: 13px;
+	margin-bottom: 8px;
+}
+
+.recent-comments-list .post-cover {
+	background-color: #fff;
+	border: solid 1px #eeeeee;
+	display: inline;
+	float: left;
+	margin-right: 10px;
+	padding: 4px;
+}
+
+header .recent-comments-list .post-cover {
+	background-color: #1f4051;
+	border-width: 0;
+}
+
+/* cb Contacts Widget */
+
+.cb-connect a {
+	color: #888;
+	display: block;
+}
+
+.cb-connect a:hover,
+.cb-connect a:focus {
+	color: #333;
+}
+
+.cb-connect li:hover,
+.cb-connect li:focus {
+	filter: alpha(opacity=100);
+	opacity: 1;
+}
+
+.cb-contacts .cb-contact {
+	font-size: 14px;
+	line-height: 20px;
+	margin: 0 0 6px 0;
+	text-align: left;
+}
+
+header .cb-contacts .cb-contact {
+	font-size: 13px;
+}
+
+.cb-sprite-contact {
+	background: transparent url(images/sprite-contact-icons-white.png) no-repeat top left;
+	display: inline-block;
+	margin-right: 8px;
+}
+
+#content .cb-sprite-contact {
+	background-image: url(images/sprite-contact-icons.png);
+}
+
+.cb-contact .cb-contact-email { background-position: 0 -60px; }
+.cb-contact .cb-contact-fax { background-position: 0 -90px; }
+.cb-contact .cb-contact-marker { background-position: 0 0; }
+.cb-contact .cb-contact-phone { background-position: 0 -31px; }
+
+/* WordPress Search Widget */
+
+#searchform label {
+	display: none;
+}
+
+#s {
+	background-color: #fff;
+	display: block;
+	float: none;
+	border: solid 1px #ddd;
+	font-size: 13px;
+	margin: 0 0 10px 0;
+	padding: 6px 5px;
+	width: 90%;
+}
+
+header #s {
+	border-width: 0;
+}
+
+#searchsubmit {
+	border: none;
+	display: block;
+	float: none;
+}
+
+/* Gravity Forms Fixes */
+.gform_wrapper .gform_heading {
+	margin-bottom: 20px;
+}
+
+.gform_wrapper .gform_fields {
+	margin-bottom: 0;
+	margin-left: 0;
+}
+
+.gform_wrapper .gfield {
+	list-style-type: none;
+	margin-left: 0;
+}
+
+.gform_wrapper .gfield_label {
+	display: block;
+	font-weight: normal;
+	margin: 0 0 5px;
+}
+
+.gform_wrapper .gfield input,
+.gform_wrapper .gfield .textarea {
+	border: solid 1px #ccc;
+	margin-bottom: 10px;
+	padding: 5px;
+	-webkit-border-radius: 2px; 
+	-moz-border-radius: 2px;    
+	border-radius: 2px; 
+}
+
+.gform_wrapper input[type=text] {
+	min-width: 200px;
+}
+
+.gform_wrapper .gfield_required {
+	color: #cc333f;
+	margin-left: 2px;
+}

@@ -1,0 +1,62 @@
+/// header
+
+header {
+	color: $base-color-one;
+	display: inline;
+	float: left;
+	position: relative;
+    width: 23.0769%;
+
+    //
+
+
+        .recent-posts {
+            padding-bottom: 0;
+        }
+
+        .cb-post:last-child {
+            margin: 0;
+        }
+
+        .post-meta {
+            color: #82a0af;
+        }
+
+        .cb-testimonial-content {
+            background-color: #1f4051;
+            border-bottom-color: #214c64;
+        }
+    
+
+}
+
+.wrapper-header {
+	background-color: $base-color-two;
+	padding: 30px;
+}
+
+/// Logo
+#logo {
+	background-color: $base-color-three;
+	padding: 30px;
+    text-align: left;
+    
+    img {
+            height: auto;
+            max-width: 100%;
+    }
+}
+
+header .title-widget {
+	border-bottom-width: 0;
+	color: $base-color-white;
+	font-size: 0.75rem;
+	padding: 0;
+	text-transform: uppercase;
+}
+
+header .widget {
+	border-bottom: solid 1px;
+	margin-bottom: 20px;
+	padding-bottom: 20px;
+}
