@@ -1,6 +1,8 @@
 @import
     'config',
+    'mixins/utilities.mixins',
     'vendor/reset',
+    'base-styles',
     'components/page-structure',
     'components/header',
     'components/navigation',
