@@ -2,7 +2,7 @@
   "development": {
     "hostname": "localhost",
     "username": "root",
-    "password": "b1141994",
+    "password": "root",
     "database": "class_hub",
     "dialect": "mysql"
 
