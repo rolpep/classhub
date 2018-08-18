@@ -4,9 +4,6 @@
     "username": "root",
     "password": "root",
     "database": "class_hub",
-    "port":  "8889",
-    "host": "localhost",
-    "socket": "/Applications/MAMP/tmp/mysql/mysql.sock",
     "dialect": "mysql"
 
   },
