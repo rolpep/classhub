@@ -73,7 +73,7 @@ module.exports = function (app) {
 
   app.get("/api/username/meta", function (req, res) {
     db.Meta.findOne({
-      where: { UserId: uID },
+      where: { UserId: userID },
       include: [db.User]
     }).then(function (dbMeta) {
       res.json(dbMeta);

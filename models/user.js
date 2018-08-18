@@ -20,9 +20,9 @@ module.exports = function (sequelize, DataTypes) {
     User.associate = function (models) {
       User.hasOne(models.Meta)
     };
-    // User.associate = function (models) {
-    //   User.hasMany(models.Meal)
-    // };
+    User.associate = function (models) {
+      User.hasMany(models.Post)
+    };
     return User;
   };
   
