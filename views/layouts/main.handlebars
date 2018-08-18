@@ -7,16 +7,12 @@
     <link rel="stylesheet" href="{{root}}/css/app/styles.css">
 
      <link rel='stylesheet' id='foundation-style-css'  href='https://demo.academiathemes.com/foundation/wp-content/themes/foundation2/style.css?ver=4.9.8' type='text/css' media='all' />
-<link rel='stylesheet' id='thickbox.css-css'  href='https://demo.academiathemes.com/foundation/wp-includes/js/thickbox/thickbox.css' type='text/css' media='all' />
-<link rel='stylesheet' id='academia-webfonts-css'  href='//fonts.googleapis.com/css?family=Source+Sans+Pro:400,600,700' type='text/css' media='all' />
-<script type='text/javascript' src='https://demo.academiathemes.com/foundation/wp-includes/js/jquery/jquery-migrate.min.js?ver=1.4.1'></script>
-<script type='text/javascript' src='https://demo.academiathemes.com/foundation/wp-content/themes/foundation2/js/superfish.js'></script>
-<script type='text/javascript' src='https://demo.academiathemes.com/foundation/wp-content/themes/foundation2/js/jquery.slicknav.min.js'></script>
-<script type='text/javascript' src='https://demo.academiathemes.com/foundation/wp-content/themes/foundation2/js/jquery.flexslider-min.js'></script>
-<script type='text/javascript' src='https://demo.academiathemes.com/foundation/wp-content/themes/foundation2/js/scripts.js'></script>
   
 
 
+<script src="../bower_components/jquery-migrate/jquery-migrate.min.js"></script>
+<script src="../bower_components/jquery/dist/jquery.min.js"></script>
+<script src="{{root}}/js/dist.js"></script>
 </head>
 
 <body>
@@ -27,7 +23,26 @@
 
 
 
-  
+<script type="text/javascript">
+jQuery(document).ready(function() {
+	
+	jQuery("#cb-slideshow").flexslider({
+        selector: ".cb-slides > .cb-slide",
+		animationLoop: true,
+        initDelay: 1000,
+		smoothHeight: false,
+				slideshow: true,
+		slideshowSpeed: 5000,
+				pauseOnAction: true,
+        controlNav: true,
+        directionNav: false,
+		useCSS: true,
+		touch: false,
+        animationSpeed: 500
+    });	 
+
+});
+</script>
 <script type='text/javascript'>
 /* <![CDATA[ */
 var thickboxL10n = {"next":"Next >","prev":"< Prev","image":"Image","of":"of","close":"Close","noiframes":"This feature requires inline frames. You have iframes disabled or your browser does not support them.","loadingAnimation":"https:\/\/demo.academiathemes.com\/foundation\/wp-includes\/js\/thickbox\/loadingAnimation.gif"};
