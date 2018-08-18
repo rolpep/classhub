@@ -4,7 +4,8 @@
     "username": "root",
     "password": "root",
     "database": "class_hub",
-    "dialect": "mysql"
+    "dialect": "mysql",
+    "port": "8889"
 
   },
   "test": {
